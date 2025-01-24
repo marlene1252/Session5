@@ -7,3 +7,10 @@ name = input("What is your name? ")
 age2 = input(f"How old are you {name}? ")
 age2 = int(age2)
 print(f"{name}, you were born in {2024-age2}")
+
+try:
+    num = input("Give me a number.")
+    num = int(num)
+    print("The square of the number read is:", num*num)
+except:
+    print("Please give me a proper number")
